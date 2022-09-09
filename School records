@@ -1,0 +1,31 @@
+package com.lululemon.assessment;
+
+public class SchoolRecords {
+	
+	String name;
+	int id;
+	String address;
+
+	void addRecords()
+	{
+		System.out.println("School record is added");
+	}
+
+	void displayRecords()
+	{
+		System.out.println("School record is displayed");
+	}
+			
+}
+
+public class TestSchoolRecords {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SchoolRecords sr=new SchoolRecords();
+		sr.addRecords();
+		sr.displayRecords();
+		System.out.println("Thank you!");
+	}
+
+}
